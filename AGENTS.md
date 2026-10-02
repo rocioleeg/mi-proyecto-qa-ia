@@ -124,3 +124,10 @@ curl -H "Authorization: Bearer $XRAY_TOKEN" ...
 For the same reason, never run `echo $VARIABLE` or `curl -v` on an authenticated request: both print the secret into tool output, which *is* in context.
 
 If a required variable is missing, say which variable is missing by name and stop. Never guess a value, and never work around the gap by asking for the secret directly.
+
+## Jira & MCP Configuration
+
+- **Jira Project Key:** `IPC` (Nombre: Prueba qa ia)
+- **Atlassian Cloud ID:** `077ae6b3-ca9a-4a30-8830-bc9fc3078dc1`
+- **Atlassian MCP Server Command:** `npx -y mcp-remote https://mcp.atlassian.com/v1/mcp/authv2`
+
