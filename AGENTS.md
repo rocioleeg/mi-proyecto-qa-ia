@@ -130,4 +130,5 @@ If a required variable is missing, say which variable is missing by name and sto
 - **Jira Project Key:** `IPC` (Nombre: Prueba qa ia)
 - **Atlassian Cloud ID:** `077ae6b3-ca9a-4a30-8830-bc9fc3078dc1`
 - **Atlassian MCP Server Command:** `npx -y mcp-remote https://mcp.atlassian.com/v1/mcp/authv2`
+- **Backlog Source File:** `.prompts/4-Especificaciones (Backlog)/pbi-product-backlog.md`
 

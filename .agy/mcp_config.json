@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "atlassian": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote@latest",
+                "https://mcp.atlassian.com/v1/mcp"
+            ],
+            "env": {
+                "ATLASSIAN_API_TOKEN": "YOUR_ATLASSIAN_API_TOKEN"
+            }
+        }
+    }
+}
