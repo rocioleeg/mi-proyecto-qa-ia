@@ -12,7 +12,7 @@
 | [IPC-8] [Epic] Portal Público de Auto-Reserva | 2 | 2 | Sincronizado con Jira |
 | [IPC-11] [Epic] Control de Concurrencia y Prevención de Dobles Reservas | 1 | 1 | Sincronizado con Jira |
 | [IPC-13] [Epic] Regla de Negocio Freemium (Límite de 10 Clientes Únicos) | 2 | 2 | Sincronizado con Jira |
-| [IPC-16] [Epic] Sistema de Notificaciones Transaccionales | 2 | 2 | Sincronizado con Jira |
+| [IPC-16] [Epic] Sistema de Notificaciones Transaccionales | 3 | 3 | Sincronizado con Jira |
 
 ## Epics identificadas, pendientes de desglosar
 * Ninguna: el backlog está desglosado entero
@@ -33,10 +33,11 @@
 * `IPC-15`: Como profesional, quiero ver un banner informativo con el botón "Más información sobre el Plan Pro" al alcanzar 10 clientes, para gestionar el crecimiento de mi negocio
 * `IPC-17`: Como cliente final, quiero recibir un correo de confirmación con los detalles de mi turno, para tener un comprobante de la cita agendada
 * `IPC-18`: Como profesional, quiero recibir notificaciones por correo de nuevas reservas y límite alcanzado, para dar seguimiento a mi agenda y cupo comercial
+* `IPC-21`: Como cliente final, quiero recibir un correo de recordatorio 24 horas antes de mi turno, para no olvidar mi cita y reducir ausencias
 
 ## Contradicciones detectadas
 * **Proveedor de correo transaccional:** `01-minuta-kickoff.md` mencionó SendGrid y `03-especificacion-funcional-v0.3.md` / `04-notas-tecnicas.md` indicaban Supabase; `05-hilo-mail-cambio-de-alcance.md` resolvió formalmente usar Resend. Se tomó Resend por ser la decisión de producto vigente.
-* **Recordatorio del día anterior:** Requisito clave en `01-minuta-kickoff.md` y `03-especificacion-funcional-v0.3.md` (sección 6), pero en `04-notas-tecnicas.md` y `05-hilo-mail-cambio-de-alcance.md` se acordó que no entra en el lanzamiento por limitación técnica/costos de cron en Vercel. Se excluye del alcance inicial y queda registrado como riesgo/deuda técnica.
+* **Recordatorio del día anterior:** Requisito clave en `01-minuta-kickoff.md` y `03-especificacion-funcional-v0.3.md` (sección 6), pero en `04-notas-tecnicas.md` y `05-hilo-mail-cambio-de-alcance.md` se acordó que no entraba en el lanzamiento inicial v1.0. Se ha incorporado al backlog como User Story evolutiva `IPC-21` en la Epic `IPC-16`.
 * **Texto del botón comercial de límite freemium:** `01-minuta-kickoff.md` ("Solicitar Upgrade"), `03-especificacion-funcional-v0.3.md` ("Ver Opciones") y `05-hilo-mail-cambio-de-alcance.md` ("Más información sobre el Plan Pro"). Se adoptó la definición de `05-hilo-mail-cambio-de-alcance.md`.
 
 ## Preguntas abiertas
