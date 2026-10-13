@@ -18,7 +18,26 @@
 * Ninguna: el backlog está desglosado entero
 
 ## Pendiente de subir a Jira
-* Ninguna: todo sincronizado
+* Ninguna: todo sincronizado (2026-10-09: refinamientos IPC-2, IPC-6, IPC-7, IPC-9, IPC-10, IPC-12, IPC-14, IPC-15, IPC-17, IPC-18, IPC-21 subidos a Jira)
+
+## Descartadas en Jira (duplicadas, cerradas en `Listo`)
+* `IPC-19`: épica duplicada de `IPC-13`, cerrada con comentario y renombre `[DUPLICADA de IPC-13 - CERRADA]`.
+* `IPC-20`: historia hija de `IPC-19`, duplicada de `IPC-14`/`IPC-15`, cerrada con comentario y renombre `[DUPLICADA de IPC-14/IPC-15 - CERRADA]`.
+* No existen en `.context/PBI/` por ser duplicados sin aporte propio; no reimportar.
+
+## Estado de refinamiento
+**Última corrida:** 2026-10-09 · alcance: todas las en borrador (IPC-9, IPC-10, IPC-12, IPC-14, IPC-15, IPC-17, IPC-18, IPC-21; IPC-2 ya estaba refinada y se saltó)
+
+| | |
+| :--- | ---: |
+| Historias totales | 13 |
+| Refinadas | 13 |
+| Pendientes (`Borrador`) | 0 |
+| Sincronizadas con Jira | 13 |
+| Pendientes de subir | 0 |
+| Escenarios Gherkin escritos en esta corrida | 34 |
+
+**Discrepancias contra Jira:** Ninguna (conciliado 2026-10-09; IPC-19/IPC-20 cerradas como duplicadas, ver sección Descartadas)
 
 ## Pendiente de verificar contra la aplicación
 * `IPC-2`: Como profesional, quiero registrarme e iniciar sesión con email y contraseña, para acceder al panel de administración
